@@ -241,11 +241,13 @@ img {
     padding-bottom: 40px;
 }
 .mob-menu-contacts{
-    display: block;
+    display: inline-block;
     row-gap: 40px;
 }
 .mobile-contacts{
-
+display: inline-block;
+bottom: 0;
+position: relative;
     margin-bottom: 40px;
     margin-left: 40px;
 
@@ -264,8 +266,7 @@ img {
 .mob-soc-list {
     display: flex;
     justify-content: center;
-    gap: 24px;
-    margin-top: 8px;
+    margin-top: 48px;
 }
 
 .mob-soc-items {
