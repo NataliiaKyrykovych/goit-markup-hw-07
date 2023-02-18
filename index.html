@@ -36,15 +36,15 @@
         
             </ul>
         </address>
-        <button type="button" class="menu-open-btn">
+        <button type="button" data-menu-open class="menu-open-btn">
             <svg class="menu-open-btn" width="32" height="22">
                 <use href="./images/symbol-defs.svg#icon-menu"></use>
             </svg>
         </button>
     </div>
-    <div class="mob-menu">
-        <button class="btn-close-mobile modal-close" data-modal-close type="button">
-            <svg class="modal-close-icon" width="8" height="8">
+    <div class="mob-menu data-menu">
+        <button type="button" data-menu-close class="btn-close-mobile">
+            <svg class="menu-close-icon" width="8" height="8">
                 <use href="./images/symbol-defs.svg#icon-close-black-18dp"></use>
             </svg>
         </button>
@@ -60,11 +60,12 @@
         <div class="mobile-contacts">
          <address>
             <ul class="mob-menu-contacts list">
+                <li class="mob-menu-contacts"><a class="mob-phone-number link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 <li class="mob-menu-contacts">
                     <a class="mob-contact-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         
                 </li>
-                <li><a class="mob-phone-number link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                
             </ul>
         </address>
         <ul class="mob-soc-list list">
@@ -429,5 +430,6 @@
         </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
