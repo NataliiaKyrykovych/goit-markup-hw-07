@@ -58,6 +58,9 @@ img {
     height: auto;
     width: 100%;
 }
+.no-scroll{
+    overflow: hidden;
+}
 
 /* ==============Components================ */
 .logo{
@@ -362,7 +365,8 @@ img {
     margin: 0 auto;
     background-repeat: no-repeat;
     max-width: 1440px;
-    background-image: var(--gra), url(../images/people-office.jpg);
+    background-image: var(--gra), url(../images/Hero-mobile.jpg);
+    background-size: cover;
 }
 
 .modal-btn {
@@ -845,12 +849,15 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 {
 .container {
     max-width: 428px;    
-    }
+}
+.hero{
+    background-image: var(--gra), url(../images/Hero-tablet.jpg);
+}
 .list-team {
     width: 264px;
     margin-left: auto;
     margin-right: auto;
-    }
+}
 .customers-link{
     width: 190px;
 }
@@ -967,6 +974,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     display: block;
     gap: 40px;
     margin-left: auto;
+}
+.hero{
+    background-image: var(--gra), url(../images/people-office.jpg);
 }
 .text-suptitle{
     width: calc((100% - 24px)/2);
