@@ -368,7 +368,13 @@ img {
     background-image: var(--gra), url(../images/Hero-mobile.jpg);
     background-size: cover;
 }
-
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.hero {
+    background-image: var(--gra), url(../images/Hero2x-mobile.jpg);
+    }
+}
 .modal-btn {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -853,6 +859,13 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 .hero{
     background-image: var(--gra), url(../images/Hero-tablet.jpg);
 }
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: var(--gra), url(../images/Hero2x-tablet.jpg);
+    }
+}
 .list-team {
     width: 264px;
     margin-left: auto;
@@ -977,6 +990,14 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 }
 .hero{
     background-image: var(--gra), url(../images/people-office.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: var(--gra), url(../images/hero2x-desctop.jpg);
+    }
 }
 .text-suptitle{
     width: calc((100% - 24px)/2);
